@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logueate</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="icon" href="./img/logo.png" />
+  </head>
+  <main>
+    <div class="logo">
+      <img src="img/logo.png" alt="logo The Simpsons" width="300px" />
+    </div>
+
+    <div class="wrapper">
+      <div class="card-switch">
+        <label class="switch">
+          <input type="checkbox" class="toggle" />
+          <span class="slider"></span>
+          <span class="card-side"></span>
+          <div class="flip-card__inner">
+            <div class="flip-card__front">
+              <div class="title">Ingresar</div>
+              <form class="flip-card__form" action="">
+                <input
+                  class="flip-card__input"
+                  name="username"
+                  placeholder="Usuario"
+                  type="username"
+                />
+                <input
+                  class="flip-card__input"
+                  name="password"
+                  placeholder="Contraseña"
+                  type="password"
+                />
+                <button class="flip-card__btn" id="btn-login-to">Entrar</button>
+              </form>
+            </div>
+            <div class="flip-card__back">
+              <div class="title">Registrate</div>
+              <form class="flip-card__form" action="">
+                <input
+                  class="flip-card__input"
+                  name="username"
+                  placeholder="Usuario"
+                  type="username"
+                />
+                <input
+                  class="flip-card__input"
+                  name="password"
+                  placeholder="Contraseña"
+                  type="password"
+                />
+                <button class="flip-card__btn" id="btn-register">
+                  Registrarse
+                </button>
+              </form>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+  </main>
+
+  <script src="./js/login.js"></script>
+</html>

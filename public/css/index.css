@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'TheSimpsons';
+    src: url('../fonts/Simpsonfont.ttf') format('truetype');
+}
+
+header, h2, .volver-arriba, .card-title {
+    font-family: 'TheSimpsons', sans-serif;
+}
+
+body {
+    background-color: gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+
+.main-title {
+    font-size: 50px;
+}
+
